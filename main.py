@@ -5,7 +5,7 @@ from telethon.tl.functions.photos import UploadProfilePhotoRequest, DeletePhotos
 from datetime import datetime
 from utils import *
 
-client = TelegramClient('clock', api_id, api_hash, proxy=(socks.SOCKS5, 'orbtl.s5.opennetwork.cc', 999, True,  "609786731", "5h1Gjbt9"))
+client = TelegramClient('clock', api_id, api_hash, proxy=(socks.SOCKS5, '95.216.165.65', 48654, True,  "telegram", "Pr0st0yPar0l"))
 client.start()
 
 prev_update_time = ""
